@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, request
 
-from factchecker.lib.downloader import get_page, split_to_sentences
+from factchecker.src.downloader import get_page, split_to_sentences
 
 
 api = Flask(__name__)
